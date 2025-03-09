@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+h1{
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 40px;
+    width: fit-content;
+    justify-content: center;
+    border: 2px dotted black;
+    border-radius: 15px;
+    align-items: center;
+    font-family: 'Dancing Script', 'ariel';
+    font-weight: 700;
+    background-color: rgb(137, 209, 231);
+    font-size: 45px;
+    box-shadow: 0 1px 8px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.05) rotate(0deg); 
+    transition: transform 0.3s ease;
+}
+
+h1:active {
+    transform: scale(1.05) rotate(360deg);
+    transition: transform 0.9s ease;
+}
+
+body{
+    background-color: #eeee;
+}
+
+.input-container{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    width: 400px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-prompt{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dancing Script','ariel';
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#grid-size-input{
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: center;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    gap: 20px;
+}
+
+#grid-maker{/*create grid button*/
+    border-radius:5px ;
+    height: 35px;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease , background-color 0.3s ease;
+}
+
+#grid-maker:hover{
+    transform: scale(1.02);
+    background-color: #c7f7a9ee;
+}
+
+#grid-maker:active{
+    transform: scale(0.95);
+}
+
+#grid-reset{/*reset button*/
+    border-radius:5px ;
+    height: 35px;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease , background-color 0.3s ease;
+}
+
+#grid-reset:hover{
+    transform: scale(1.02);
+    background-color: #f3ec75ee;
+}
+
+#grid-reset:active{
+    transform: scale(0.95);
+}
+
+#grid-clear{/*clear button*/
+    border-radius:5px ;
+    height: 35px;
+    box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease , background-color 0.3s ease;
+}
+
+#grid-clear:hover{
+    transform: scale(1.02);
+    background-color: #ff9b89ee;
+}
+
+#grid-clear:active{
+    transform: scale(0.95);
+}
+
+.grid-container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    border-color: brown;
+    border-radius: 10px;
+}
+.box {
+    background-color: lightblue;
+    border-radius: 1px;
+}
+.box:hover{
+    background-color: brown;
+}
+
+#size-warning{
+    font-size: 35px;
+    font-family: 'Dancing Script','Ariel';
+}
