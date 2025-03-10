@@ -136,6 +136,9 @@ body{
 }
 
 #size-warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 35px;
     font-family: 'Dancing Script','Ariel';
 }
