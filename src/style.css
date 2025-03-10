@@ -129,7 +129,7 @@ body{
 }
 .box {
     background-color: lightblue;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 .box:hover{
     background-color: brown;
