@@ -8,18 +8,33 @@
     <script src="main.js"></script>
 </head>
 <body>
+    
     <h1>Etch-A-Sketch</h1>
+
     <div class="input-container">
         <label id="grid-prompt">Enter the Grid Size</label>
         <input id= "grid-size-input" type="text">
     </div>
+
     <div class="button-container">
         <button id="grid-maker">Create grid</button>
         <button id="grid-reset">Reset</button>
         <button id="grid-clear">Clear grid</button>
     </div>
-    <div class="grid-container"> 
-        <label id="size-warning"></label> 
+
+    <div class="toolbox">
+        <div class="grid-container"> 
+            <label id="size-warning"></label>
+        </div>
+        <div class="tool-container">
+            <label id="tool-description">Tools</label>
+            <br>
+            <button id="black-color">black </button> 
+            <br>
+            <button id="rainbow-color">rainbow</button>
+            <br>
+            <button id="erase">erase</button>
+        </div>
     </div>
     
 </body>
