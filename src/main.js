@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded',() =>{
         }
 
         else{
-            setLabel("invalid Input");
+            setLabel("Invalid input");
             return;
         }
     }
