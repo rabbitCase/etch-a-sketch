@@ -1,4 +1,5 @@
 # Etch A Sketch 
+<a href="https://rabbitcase.github.io/etch-a-sketch/">Live Preview</a>
 <ul>
   <li>Etch A Sketch is a mechanical toy which uses a stylus for making drawings </li>
   <li>The toy has aluminium powder coating which displaces when the stylus runs over it, creating a line</li>
